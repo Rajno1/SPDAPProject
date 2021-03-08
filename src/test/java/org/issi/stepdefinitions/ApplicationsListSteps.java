@@ -1,12 +1,11 @@
 package org.issi.stepdefinitions;
 
 import io.cucumber.datatable.DataTable;
-import io.cucumber.java.an.E;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.apache.poi.openxml4j.exceptions.InvalidFormatException;
 import org.assertj.core.api.Assertions;
-import org.assertj.core.api.WithAssertions;
 import org.issi.constants.FrameworkConstants;
 import org.issi.driver.DriverManager;
 import org.issi.enums.ConfigProperties;
@@ -18,6 +17,7 @@ import java.io.IOException;
 import java.util.List;
 import java.util.Map;
 
+import static org.issi.pages.ApplicationAttachmentsPage.*;
 import static org.issi.pages.ApplicationQuestionsPage.*;
 import static org.issi.pages.HouseholdIncomePage.*;
 import static org.issi.pages.LoginPage.doLogin;
@@ -25,7 +25,7 @@ import static org.issi.pages.PersonalInfoPage.scrollByElement;
 import static org.issi.pages.PersonalInfoPage.waitupto;
 import static org.issi.pages.PersonalInfoPage.*;
 import static org.issi.pages.RepresentativeInformationPage.*;
-import static org.issi.pages.ApplicationAttachmentsPage.*;
+import static org.issi.pages.ConfirmationPage.*;
 
 public class ApplicationsListSteps {
 
@@ -569,15 +569,22 @@ public class ApplicationsListSteps {
     @When("user clicks on Next button in attachment field")
     public void user_clicks_on_next_button_in_attachment_field() {
         clickOnAttachmentNextBtn();
-        waitupto(1000);
+        waitupto(500);
     }
 
 
     @When("user user accepts the declaration")
     public void user_user_accepts_the_declaration() {
-        waitupto(1000);
+        waitupto(500);
         clickOnDeclaration();
         waitupto(500);
+    }
+
+    @When("user enters captcha and login password")
+    public void user_enters_captcha_and_login_password() {
+        enterCaptcha();
+        waitupto(500);
+        enterApplicantpasswrod();
     }
 
     @When("user click on submit button to confim the application")
@@ -585,4 +592,11 @@ public class ApplicationsListSteps {
         clickOnFinalSubmit();
         waitupto(2000);
     }
+
+    @Then("user gets the confirmation as {string}")
+    public void user_gets_the_confirmation_as(String string) {
+        applicationConfirmation(string);
+        waitupto(1000);
+    }
+
 }

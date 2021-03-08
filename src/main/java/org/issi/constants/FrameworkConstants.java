@@ -12,9 +12,12 @@ public final class FrameworkConstants {
     private static final String EXCELFILEPATH = TESTRESOURCESPATH +"/Test_Data/Testdata.xlsx";
 
 
-    private static final String powerOfAttorneyFormPath = "/Users/rajasekhar/Desktop/Manual Testing.pdf";
-   // private static final String powerOfAttorneyFormPath = "C:/Users/Admin/Downloads/AuthorizedRep-Web.pdf";
+    private static final String powerOfAttorneyFormPath = "C:/Users/Admin/Downloads/AuthorizedRep-Web.pdf";
+    private static final String captchapath = TESTRESOURCESPATH + "/CaptchaScreenshot/captcha.png";
 
+    public static String getCaptchapath() {
+        return captchapath;
+    }
 
     public static String getConfigFilePath() {
         return CONFIGFILEPATH;

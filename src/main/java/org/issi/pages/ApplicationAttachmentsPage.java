@@ -1,7 +1,6 @@
 package org.issi.pages;
 
 import org.issi.constants.FrameworkConstants;
-import org.issi.driver.DriverManager;
 import org.issi.enums.WaitStrategy;
 import org.openqa.selenium.By;
 
@@ -13,7 +12,7 @@ public class ApplicationAttachmentsPage extends BasePage{
     public static void clickOnAddNewDocuument(){
         waitupto(500);
         clickOn(addNewDocumetnLink, WaitStrategy.CLICKABLE,"Add new document");
-        waitupto(1000);
+        waitupto(500);
     }
 
     // select document type value
@@ -74,31 +73,15 @@ public class ApplicationAttachmentsPage extends BasePage{
     private static final By addDocSaveBtn = By.xpath("//input[@onclick='Save();']");
     public static void clickOnAddDocSaveBtn(){
         clickOn(addDocSaveBtn,WaitStrategy.CLICKABLE,"Save");
-        waitupto(1000);
+        waitupto(500);
     }
 
     // click on attachment Next button
     private static final By attachmentNext = By.xpath("//button[@id='nextDocumentsBtn']");
     public static void clickOnAttachmentNextBtn(){
         clickOn(attachmentNext,WaitStrategy.CLICKABLE,"Attachment Next Button");
-        waitupto(1000);
-    }
-
-    // accept declaration
-    private static final By declarationBtn = By.xpath("//input[@id='ckbConfirmation']");
-    public static void clickOnDeclaration(){
-        waitupto(500);
-        scrollByElement(declarationBtn,WaitStrategy.CLICKABLE);
-        clickOn(declarationBtn,WaitStrategy.CLICKABLE,"Declaration");
         waitupto(500);
     }
 
-    // clicking on final submission
-    private static final By finalsubBtn = By.xpath("//button[@id='btnSubmit']");
-    public static void clickOnFinalSubmit(){
-        waitupto(500);
-        scrollByElement(finalsubBtn,WaitStrategy.CLICKABLE);
-        clickOn(finalsubBtn,WaitStrategy.CLICKABLE,"Final sumbit");
 
-    }
 }

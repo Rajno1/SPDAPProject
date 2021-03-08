@@ -26,7 +26,9 @@ Feature: ApplicationsList feature
     When user fills attachments Information from given sheet name "Attachments" and <RowNumber>
     And user clicks on Next button in attachment field
     When user user accepts the declaration
-    And user click on submit button to confim the application
+    And user enters captcha and login password
+    When user click on submit button to confim the application
+    Then user gets the confirmation as "Dear Applicant,Your Application has been Registered for The Senior Prescription Drug Assistance Program."
 
 
 

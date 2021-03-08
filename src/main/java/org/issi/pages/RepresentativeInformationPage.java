@@ -169,13 +169,14 @@ public class RepresentativeInformationPage extends BasePage{
     private static final By submitbtn = By.xpath("//*[@id='RepresentativeInfo']/div[7]/button[1]");
     public static void clickOnSubmitBtn(){
         clickOn(submitbtn,WaitStrategy.CLICKABLE,"Representative submit button");
-        waitupto(2000);
+        waitupto(500);
     }
 
     // click on Representative information next button
     private static final By repinfoNextBtn = By.xpath("//button[@id='nextRBtn']");
     public static void clickOnRepInfoNextBtn(){
         clickOn(repinfoNextBtn,WaitStrategy.CLICKABLE,"Representative Next Button");
-        waitupto(1000);
+        waitupto(500);
+
     }
 }

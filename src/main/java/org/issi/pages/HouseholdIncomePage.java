@@ -86,13 +86,13 @@ public class HouseholdIncomePage extends BasePage{
     private static final By householdSubBtn = By.xpath("//button[contains(text(),'Submit')]");
     public static void clickOnHouseHoldIncomeSubmit(){
         clickOn(householdSubBtn,WaitStrategy.CLICKABLE,"House hold Submit button");
-        waitupto(3000);
+        waitupto(500);
     }
 
     //Household next button
     private static final By householdNext = By.xpath("//button[@id='nextHouseholdBtn']");
     public static void clickOnHouseHoldNextBtn(){
         clickOn(householdNext,WaitStrategy.CLICKABLE,"Next");
-        waitupto(1000);
+        waitupto(500);
     }
 }
