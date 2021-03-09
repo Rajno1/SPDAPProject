@@ -1,6 +1,9 @@
 package org.issi.pages;
 
 
+import org.apache.log4j.Logger;
+import org.apache.log4j.PropertyConfigurator;
+import org.issi.constants.FrameworkConstants;
 import org.issi.driver.DriverManager;
 import org.issi.enums.WaitStrategy;
 import org.issi.factory.ExplicitWaitFactory;
@@ -15,6 +18,11 @@ import java.util.Set;
 
 public class BasePage {
 
+    public static Logger log(){
+       Logger logger = Logger.getLogger("MRP");
+        PropertyConfigurator.configure(FrameworkConstants.getLoggerPath());
+        return logger;
+    }
     public static void clickOn(By by, WaitStrategy waitstrategy, String elementName) {
        WebElement element = ExplicitWaitFactory.performExplicitWait(by, waitstrategy);
        try {
@@ -23,9 +31,10 @@ public class BasePage {
            JavascriptExecutor js = (JavascriptExecutor)DriverManager.getDriver();
            js.executeScript("arguments[0].click();",element);
        }
+       log().info(" Clicked on " +elementName );
 
-        System.out.println(" Clicked on " +elementName );
     }
+
     // to work on org.openqa.selenium.ElementClickInterceptedException i am writing this another click method using actions
     public static void clickOnAction(By by,WaitStrategy waitStrategy,String elementName){
         Actions act = new Actions(DriverManager.getDriver());
@@ -35,7 +44,7 @@ public class BasePage {
     public static void enterText(By by, String value,WaitStrategy waitstrategy, String elementName) {
         WebElement element =ExplicitWaitFactory.performExplicitWait(by, waitstrategy);
         element.sendKeys(value);
-        System.out.println("Entered  "+elementName+" as "+value);
+       log().info("Entered  "+elementName+" as "+value);
     }
 
     public static void selectFromDrpDwn(By by,WaitStrategy waitStrategy,String value,String elementName){
@@ -51,7 +60,7 @@ public class BasePage {
                 select.selectByVisibleText(value);
             }
         }
-        System.out.println("selected  "+elementName+" as "+value);
+        log().info("selected  "+elementName+" as "+value);
     }
 
     public static void selectDate(By by,WaitStrategy waitStrategy){
@@ -75,9 +84,7 @@ public class BasePage {
             }
         }
         return DriverManager.getDriver().getWindowHandle();
-
     }
-
 
     protected void menuItemDrpDwn(By by, String enterMenuItem){
         try {
@@ -96,12 +103,19 @@ public class BasePage {
     }
 
 
-    protected void mouseOver(By by,WaitStrategy waitstrategy,String elementName){
-        WebElement element =ExplicitWaitFactory.performExplicitWait(by, waitstrategy);
-        element = DriverManager.getDriver().findElement(by);
-        Actions action = new Actions(DriverManager.getDriver());
-        action.moveToElement(element).perform();
-        System.out.println("Mouse overed on "+elementName+"");
+    public static void mouseOver(By by,WaitStrategy waitstrategy,String elementName){
+        try {
+            JavascriptExecutor js = (JavascriptExecutor) DriverManager.getDriver();
+            js.executeScript("arguments[0].scrollIntoView(true);", DriverManager.getDriver().findElement(by));
+            WebElement element =ExplicitWaitFactory.performExplicitWait(by, waitstrategy);
+        } catch (Exception e) {
+            WebElement element =ExplicitWaitFactory.performExplicitWait(by, waitstrategy);
+            element = DriverManager.getDriver().findElement(by);
+            Actions action = new Actions(DriverManager.getDriver());
+            action.moveToElement(element).perform();
+            System.out.println("Mouse overed on "+elementName+"");
+        }
+
     }
 
 

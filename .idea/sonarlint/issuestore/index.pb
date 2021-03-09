@@ -18,8 +18,6 @@ c
 3src/main/java/org/issi/utilities/PropertyUtils.java,f\2\f22d8f9d0f233fea0d72c4a20c4f877786689b80
 b
 2src/main/java/org/issi/enums/ConfigProperties.java,c\1\c14c7ed36c3273dd0a5c97403235ec119d837ea7
-q
-Asrc/test/java/org/issi/stepdefinitions/ApplicationsListSteps.java,0\3\03082d4359afc2c0f6ed022132b968ae2baff70c
 ]
 -src/test/java/org/issi/runner/TestRunner.java,8\3\83893b3a5270b64b0dc5d8b54d9a36dd12ad6cdb
 b
@@ -70,3 +68,9 @@ e
 5src/main/java/org/issi/pages/SearchApplicantPage.java,3\d\3d2de93076c9bba505188e325cbdd066150fde2b
 o
 ?src/test/java/org/issi/stepdefinitions/ForgotPasswordSteps.java,9\5\9574a1197012c3957624d2655a42af5cad4d714a
+?
+log/testlog.log,0\c\0c2ca017ab198549e6f3f98dde91348bcad65997
+D
+log/application.html,d\d\dd1b3745faa6e539039b2535230f78adefd26b83
+C
+log/application.log,5\5\557bf5dd386a3868ae12430b3ea7363ae788f1ce

@@ -15,6 +15,8 @@ import org.openqa.selenium.io.FileHandler;
 import java.io.File;
 import java.io.IOException;
 
+
+
 public final class ConfirmationPage extends BasePage {
     private ConfirmationPage() {
     }
@@ -39,7 +41,7 @@ public final class ConfirmationPage extends BasePage {
             instance.setDatapath("tessdata");
             String captchaText = instance.doOCR(new File(FrameworkConstants.getCaptchapath()));
             waitupto(1000);
-                System.out.println("captcha is : "+ captchaText);
+               log().info("captcha is : "+ captchaText);
             return captchaText;
         } catch (TesseractException | IOException e) {
             e.printStackTrace();
@@ -64,7 +66,6 @@ public final class ConfirmationPage extends BasePage {
     // clicking on final submission
     private static final By finalsubBtn = By.xpath("//button[@id='btnSubmit']");
     public static void clickOnFinalSubmit(){
-       // scrollByElement(finalsubBtn,WaitStrategy.CLICKABLE);
         waitupto(500);
         clickOn(finalsubBtn,WaitStrategy.CLICKABLE,"Final sumbit");
 
