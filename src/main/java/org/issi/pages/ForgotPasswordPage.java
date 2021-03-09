@@ -4,7 +4,10 @@ import org.issi.driver.DriverManager;
 import org.issi.enums.WaitStrategy;
 import org.openqa.selenium.By;
 
-public class ForgotPasswordPage extends BasePage{
+public final class ForgotPasswordPage extends BasePage{
+    private ForgotPasswordPage() {
+    }
+
     private static final By forgotpwdBtn = By.xpath("//a[contains(text(),' Forgot Password')]");
     private static final By e_mail = By.xpath("//input[@id='txtemail']");
     private static final By forgotpswSubmitBtn = By.xpath("//input[@onclick='ForgotPasswordClick()']");

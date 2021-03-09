@@ -1,10 +1,8 @@
 package org.issi.pages;
 
 import org.issi.constants.FrameworkConstants;
-import org.issi.driver.DriverManager;
 import org.issi.enums.WaitStrategy;
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebElement;
 
 public class RepresentativeInformationPage extends BasePage{
     private RepresentativeInformationPage() {

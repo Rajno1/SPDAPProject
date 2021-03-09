@@ -26,8 +26,9 @@ import static org.issi.pages.PersonalInfoPage.waitupto;
 import static org.issi.pages.PersonalInfoPage.*;
 import static org.issi.pages.RepresentativeInformationPage.*;
 import static org.issi.pages.ConfirmationPage.*;
+import static org.issi.pages.InstructionsPage.*;
 
-public class ApplicationsListSteps {
+public class AddNewApplicationSteps {
 
     @Given("user has already logged in to application")
     public void user_has_already_logged_in_to_application(DataTable dataTable) {
@@ -38,19 +39,24 @@ public class ApplicationsListSteps {
         doLogin(username, password);
     }
 
+    // Adding new application through Process To Apply Button
+    @When("user clicks on Proceed To Apply button")
+    public void user_clicks_on_proceed_to_apply_button() {
+        cickOnProcessedToApply();
+        waitupto(500);
+    }
+
+    // Adding new applications through Application module
     @When("user clicks on Applications menu")
     public void user_clicks_on_applications_menu() {
         clickOnApplicationsMenu();
+        waitupto(500);
     }
 
     @Given("user clicks on Add New Application link")
     public void user_clicks_on_add_new_application_link() {
-        try {
-            Thread.sleep(2000);
-            clickOnAddNewApplication();
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        clickOnAddNewApplication();
+        waitupto(500);
     }
 
     @When("user fills personal information from given sheet name {string} and {int}")
@@ -84,7 +90,7 @@ public class ApplicationsListSteps {
             enterApplicantSSNnumber(applicantSSNno);
 
             String applicantHICN_MBINo = testdata.get(rownumber).get("HICN/MBI No");
-            enterHicn_MbiNum(applicantHICN_MBINo);
+            enterHicnMbiNum(applicantHICN_MBINo);
 
             String applicantMarital = testdata.get(rownumber).get("MaritalStatus");
             selectApplicantMartialStatus(applicantMarital);

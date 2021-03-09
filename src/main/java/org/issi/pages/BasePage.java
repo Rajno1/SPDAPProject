@@ -113,7 +113,7 @@ public class BasePage {
         }
     }
 
-    public String getPage_Title() {
+    public static String getPage_Title() {
         return DriverManager.getDriver().getTitle();
     }
 

@@ -86,9 +86,7 @@ public class RegistrationSteps {
 
 
 
-        } catch (InvalidFormatException e) {
-            e.printStackTrace();
-        } catch (IOException e) {
+        } catch (InvalidFormatException | IOException e) {
             e.printStackTrace();
         }
 

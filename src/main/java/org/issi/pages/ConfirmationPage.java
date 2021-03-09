@@ -4,7 +4,6 @@ import net.sourceforge.tess4j.ITesseract;
 import net.sourceforge.tess4j.Tesseract;
 import net.sourceforge.tess4j.TesseractException;
 import org.issi.constants.FrameworkConstants;
-import org.issi.driver.Driver;
 import org.issi.driver.DriverManager;
 import org.issi.enums.ConfigProperties;
 import org.issi.enums.WaitStrategy;
@@ -16,8 +15,8 @@ import org.openqa.selenium.io.FileHandler;
 import java.io.File;
 import java.io.IOException;
 
-public class ConfirmationPage extends BasePage {
-    public ConfirmationPage() {
+public final class ConfirmationPage extends BasePage {
+    private ConfirmationPage() {
     }
 
     // accept declaration
@@ -38,10 +37,9 @@ public class ConfirmationPage extends BasePage {
             FileHandler.copy(src, new File(FrameworkConstants.getCaptchapath()));
             ITesseract instance = new Tesseract();
             instance.setDatapath("tessdata");
-            // ITesseract image = new Tesseract();
             String captchaText = instance.doOCR(new File(FrameworkConstants.getCaptchapath()));
             waitupto(1000);
-            System.out.println("captcha is : "+ captchaText);
+                System.out.println("captcha is : "+ captchaText);
             return captchaText;
         } catch (TesseractException | IOException e) {
             e.printStackTrace();

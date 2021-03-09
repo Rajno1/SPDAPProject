@@ -5,8 +5,8 @@ import org.issi.driver.DriverManager;
 import org.issi.enums.WaitStrategy;
 import org.openqa.selenium.By;
 
-public class HouseholdIncomePage extends BasePage{
-    public HouseholdIncomePage() {
+public final class HouseholdIncomePage extends BasePage{
+    private HouseholdIncomePage() {
     }
     // clicking add new house hold income link
     private static final By addNewHouseHoldIncomeLink = By.xpath("//a[@id='addnewHouseHoldIncome']");
@@ -43,21 +43,20 @@ public class HouseholdIncomePage extends BasePage{
         enterText(otherMemIncomeText,othermemincomeValue,WaitStrategy.VISIBLE,"Other memeber Income");
         waitupto(500);
     }
-
+    // declaring .getAttribute argument as constant
+    private static final String VALUE = "value";
     // adding all incomes
     public static int toalIncomeValue(){
-        int applicantincome = Integer.parseInt(DriverManager.getDriver().findElement(applicantIncomeText).getAttribute("value"));
-        int spouseincome = Integer.parseInt(DriverManager.getDriver().findElement(spouseIncomeText).getAttribute("value"));
-        int othermemincome = Integer.parseInt(DriverManager.getDriver().findElement(otherMemIncomeText).getAttribute("value"));
-        int toalincome = applicantincome+spouseincome+othermemincome;
-        return toalincome;
+        int applicantincome = Integer.parseInt(DriverManager.getDriver().findElement(applicantIncomeText).getAttribute(VALUE));
+        int spouseincome = Integer.parseInt(DriverManager.getDriver().findElement(spouseIncomeText).getAttribute(VALUE));
+        int othermemincome = Integer.parseInt(DriverManager.getDriver().findElement(otherMemIncomeText).getAttribute(VALUE));
+        return applicantincome+spouseincome+othermemincome;
 
     }
-
     // getting the total value of incomes
     private static final By taxtotalText = By.xpath("//input[@id='txtTotal']");
     public static int getTotalTaxValue(){
-       String totalTax = DriverManager.getDriver().findElement(taxtotalText).getAttribute("value");
+       String totalTax = DriverManager.getDriver().findElement(taxtotalText).getAttribute(VALUE);
        return Integer.parseInt(totalTax);
     }
 

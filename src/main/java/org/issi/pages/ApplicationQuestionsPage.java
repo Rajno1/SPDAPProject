@@ -11,35 +11,35 @@ public final class ApplicationQuestionsPage extends BasePage{
 
 
     // Selecting House Hold members
-    private static String housHoldXpath ="//label[contains(text(),'%s')]"; //%s discribes that can be any string will come to this place
+    private static final String  HOUSEHOLDXPATH ="//label[contains(text(),'%s')]"; //%s discribes that can be any string will come to this place
 
     public static void selectHouseHoldMemValue(String numOfHouseHolds){
-        String newXpath = DynamicXpathUtils.getXpath(housHoldXpath,numOfHouseHolds);
+        String newXpath = DynamicXpathUtils.getXpath(HOUSEHOLDXPATH,numOfHouseHolds);
        clickOn(By.xpath(newXpath), WaitStrategy.CLICKABLE,numOfHouseHolds);
        waitupto(500);
     }
 
     // Selecting SPDAP income eligibility level
-   private static String spdapIncmElgXpath = "//label[contains(text(),'%s')]/input[@id='2']";
+   private static final String SPDAPINCMELGXPATH = "//label[contains(text(),'%s')]/input[@id='2']";
     public static void selectSPDAPIncomElgibility(String elgStatus){
-        String newXpath = DynamicXpathUtils.getXpath(spdapIncmElgXpath,elgStatus);
+        String newXpath = DynamicXpathUtils.getXpath(SPDAPINCMELGXPATH,elgStatus);
         clickOn(By.xpath(newXpath),WaitStrategy.CLICKABLE,elgStatus);
         waitupto(500);
     }
 
     // Select Federal Incometax returns
-    private static String federalIncometaxXpath = "//label[contains(text(),'%s')]/input[@id='3']";
+    private static final String FEDERALINCMTAXXPATH = "//label[contains(text(),'%s')]/input[@id='3']";
     public static void selectFederalIncometaxReturns(String fisstatus){
-        String newXpath = DynamicXpathUtils.getXpath(federalIncometaxXpath,fisstatus);
+        String newXpath = DynamicXpathUtils.getXpath(FEDERALINCMTAXXPATH,fisstatus);
         clickOn(By.xpath(newXpath),WaitStrategy.CLICKABLE,fisstatus);
         waitupto(500);
     }
 
     // Select Other prescription drug coverage
-    private static String otherPrescriptionXpath = "//label[contains(text(),'%s')]/input[@id='4']";
+    private static final String OTHERPRESCRIPTIONXPATH = "//label[contains(text(),'%s')]/input[@id='4']";
     private static final By otherplaninfo = By.xpath("//input[@id='5']");
     public static void selectOtherPrescriptonCoverageInfo(String otherPrescriptionStatus,String plan){
-        String newXpath = DynamicXpathUtils.getXpath(otherPrescriptionXpath,otherPrescriptionStatus);
+        String newXpath = DynamicXpathUtils.getXpath(OTHERPRESCRIPTIONXPATH,otherPrescriptionStatus);
         if (otherPrescriptionStatus.equals("YES")){
             clickOn(By.xpath(newXpath),WaitStrategy.CLICKABLE,otherPrescriptionStatus);
             waitupto(500);
@@ -52,25 +52,25 @@ public final class ApplicationQuestionsPage extends BasePage{
     }
 
     // selecting Extra help application status
-    private static String extrahelpXpath = "//label[contains(text(),'%s')]/input[@id='6']";
+    private static final String EXTRAHELPXPATH = "//label[contains(text(),'%s')]/input[@id='6']";
     public static void selectExtraHelpStatus(String extrahelpstatus){
-        String newXpath = DynamicXpathUtils.getXpath(extrahelpXpath,extrahelpstatus);
+        String newXpath = DynamicXpathUtils.getXpath(EXTRAHELPXPATH,extrahelpstatus);
         clickOn(By.xpath(newXpath),WaitStrategy.CLICKABLE,extrahelpstatus);
         waitupto(500);
     }
 
     // selecting single Investment worth option
-    private static String singleinvestmentworthXpath = "//label[contains(text(),'%s')]/input[@id='7']";
+    private static final String SINGLEINVESTMENTXPAHT = "//label[contains(text(),'%s')]/input[@id='7']";
     public static void selectSingleInvestmentWorthOption(String singleinvestmentworth){
-        String newXpath = DynamicXpathUtils.getXpath(singleinvestmentworthXpath,singleinvestmentworth);
+        String newXpath = DynamicXpathUtils.getXpath(SINGLEINVESTMENTXPAHT,singleinvestmentworth);
         clickOn(By.xpath(newXpath),WaitStrategy.CLICKABLE,singleinvestmentworth);
         waitupto(500);
     }
 
     // selecting Married Investment worth option
-    private static String changableXpath = "//label[contains(text(),'%s')]/input[@id='8']";
+    private static final String CHANGABLEXPATH = "//label[contains(text(),'%s')]/input[@id='8']";
     public static void selectMarriedInvestmentWorthOption(String value){
-        String newXpath = DynamicXpathUtils.getXpath(changableXpath,value);
+        String newXpath = DynamicXpathUtils.getXpath(CHANGABLEXPATH,value);
         clickOn(By.xpath(newXpath),WaitStrategy.CLICKABLE,value);
         waitupto(500);
     }
@@ -97,33 +97,33 @@ public final class ApplicationQuestionsPage extends BasePage{
     }
 
     // select money usage option for funeral of Applicant
-    private static String applicantmoneyUsageXpath = "//label[contains(text(),'%s')]/input[@id='14']";
+    private static final String APPLICANTMONEYUSAGEXPATH = "//label[contains(text(),'%s')]/input[@id='14']";
     public static void selectMoneyUsageOptionForFuneralOfApplicant(String option){
-        String newXpath = DynamicXpathUtils.getXpath(applicantmoneyUsageXpath,option);
+        String newXpath = DynamicXpathUtils.getXpath(APPLICANTMONEYUSAGEXPATH,option);
         clickOn(By.xpath(newXpath),WaitStrategy.CLICKABLE,option);
         waitupto(500);
     }
 
     // select money usage option for funeral of Spouse
-    private static String spousemoneyusageXpath = "//label[contains(text(),'%s')]/input[@id='15']";
+    private static final String SPOUSEMONEYUSAGEXPATH = "//label[contains(text(),'%s')]/input[@id='15']";
     public static void selectMoneyUsageOptionForFuneralOfSpouse(String option){
-        String newXpath = DynamicXpathUtils.getXpath(spousemoneyusageXpath,option);
+        String newXpath = DynamicXpathUtils.getXpath(SPOUSEMONEYUSAGEXPATH,option);
         clickOn(By.xpath(newXpath),WaitStrategy.CLICKABLE,option);
         waitupto(500);
     }
 
     // Selecting Applicant real estate information
-    private static String applicantrealestateXpath = "//label[contains(text(),'%s')]/input[@id='17']";
+    private static final String APPLICANTREALESTATEXPATH = "//label[contains(text(),'%s')]/input[@id='17']";
     public static void selectRealEstateInfoOfApplicant(String option){
-        String newXpath = DynamicXpathUtils.getXpath(applicantrealestateXpath,option);
+        String newXpath = DynamicXpathUtils.getXpath(APPLICANTREALESTATEXPATH,option);
         clickOn(By.xpath(newXpath),WaitStrategy.CLICKABLE,option);
         waitupto(500);
     }
 
     // Selecting Spouse real estate information
-    private static String spouserealestateXpath = "//label[contains(text(),'%s')]/input[@id='18']";
+    private static final String SPOUSEREALESTATEXPATH = "//label[contains(text(),'%s')]/input[@id='18']";
     public static void selectRealEstateInfoOfSpouse(String option){
-        String newXpath = DynamicXpathUtils.getXpath(spouserealestateXpath,option);
+        String newXpath = DynamicXpathUtils.getXpath(SPOUSEREALESTATEXPATH,option);
         clickOn(By.xpath(newXpath),WaitStrategy.CLICKABLE,option);
         waitupto(500);
     }
@@ -164,25 +164,25 @@ public final class ApplicationQuestionsPage extends BasePage{
     }
 
     // selecting is amount entered in ques 10 decrease from last 2 years or not
-    private static String ques10amoutvariXpath = "//label[contains(text(),'%s')]/input[@id='25']";
+    private static final String QUESTIONTENAMOUNTVARYXPATH = "//label[contains(text(),'%s')]/input[@id='25']";
     public static void selectAmountDecreStatus(String option){
-        String newXpath = DynamicXpathUtils.getXpath(ques10amoutvariXpath,option);
+        String newXpath = DynamicXpathUtils.getXpath(QUESTIONTENAMOUNTVARYXPATH,option);
         clickOn(By.xpath(newXpath),WaitStrategy.CLICKABLE,option);
         waitupto(500);
     }
 
     // selecting applicant work status of last two years
-    private static String appliant2yearsXpath = "//label[contains(text(),'%s')]/input[@id='27']";
+    private static final String APPLICANTEXPXPATH = "//label[contains(text(),'%s')]/input[@id='27']";
     public static void selectApplicantLast2YearsExp(String option){
-        String newXpath = DynamicXpathUtils.getXpath(appliant2yearsXpath,option);
+        String newXpath = DynamicXpathUtils.getXpath(APPLICANTEXPXPATH,option);
         clickOn(By.xpath(newXpath),WaitStrategy.CLICKABLE,option);
         waitupto(500);
     }
 
     // selecting spouse work status of last two years
-    private static String spouse2yearsXpath = "//label[contains(text(),'%s')]/input[@id='28']";
+    private static final String SPOUSEEXPXPATH = "//label[contains(text(),'%s')]/input[@id='28']";
     public static void selectSpouseLast2YearsExp(String option){
-        String newXpath = DynamicXpathUtils.getXpath(spouse2yearsXpath,option);
+        String newXpath = DynamicXpathUtils.getXpath(SPOUSEEXPXPATH,option);
         clickOn(By.xpath(newXpath),WaitStrategy.CLICKABLE,option);
         waitupto(500);
     }
@@ -223,9 +223,9 @@ public final class ApplicationQuestionsPage extends BasePage{
     }
 
     // select decreased status of amount entered in Ques 14 & 15
-    private static String amountVarfrmQes1415Xpath = "//label[contains(text(),'%s')]/input[@id='36']";
+    private static final String AMOUNTVARYXPATH = "//label[contains(text(),'%s')]/input[@id='36']";
     public static void selectAmoutVaryStatus(String option){
-        String newXpath = DynamicXpathUtils.getXpath(amountVarfrmQes1415Xpath,option);
+        String newXpath = DynamicXpathUtils.getXpath(AMOUNTVARYXPATH,option);
         clickOn(By.xpath(newXpath),WaitStrategy.CLICKABLE,option);
         waitupto(500);
     }
@@ -245,17 +245,17 @@ public final class ApplicationQuestionsPage extends BasePage{
     }
 
     //selecting income limit of applicant if younger than 65
-    private static String applicantYoungXpath = "//label[contains(text(),'%s')]/input[@id='41']";
+    private static final String APPLICATNAGEXPATH = "//label[contains(text(),'%s')]/input[@id='41']";
     public static void selectApplicantYoungerStatus(String option){
-        String newXpath = DynamicXpathUtils.getXpath(applicantYoungXpath,option);
+        String newXpath = DynamicXpathUtils.getXpath(APPLICATNAGEXPATH,option);
         clickOn(By.xpath(newXpath),WaitStrategy.CLICKABLE,option);
         waitupto(500);
     }
 
     //selecting income limit of spouse if younger than 65
-    private static String spouseYoungXpath = "//label[contains(text(),'%s')]/input[@id='42']";
+    private static final String SPOUSEAGEXPATH = "//label[contains(text(),'%s')]/input[@id='42']";
     public static void selectSpouseYoungerStatus(String option){
-        String newXpath = DynamicXpathUtils.getXpath(spouseYoungXpath,option);
+        String newXpath = DynamicXpathUtils.getXpath(SPOUSEAGEXPATH,option);
         clickOn(By.xpath(newXpath),WaitStrategy.CLICKABLE,option);
         waitupto(500);
     }

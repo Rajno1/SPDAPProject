@@ -1,18 +1,13 @@
-@application
-Feature: ApplicationsList feature
-
+Feature:Instruction feature
   Background:
     Given user has already logged in to application
       | username  | password |
       | Applicant | Issi123# |
 
-  Scenario Outline: Adding new application
+  Scenario Outline: Checking instructions and Adding new application
     When user gets the title of the page
     Then page title should be "- Maryland Residential Portal"
-    When user clicks on Applications menu
-    When user gets the title of the page
-    Then page title should be "ApplicationsList - Maryland Residential Portal"
-    When user clicks on Add New Application link
+    When user clicks on Proceed To Apply button
     When user gets the title of the page
     Then page title should be "Index - Maryland Residential Portal"
     When user fills personal information from given sheet name "Personal_Information" and <RowNumber>
@@ -35,5 +30,3 @@ Feature: ApplicationsList feature
     Examples:
       | RowNumber |
       | 0         |
-
-

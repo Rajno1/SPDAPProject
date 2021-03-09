@@ -1,18 +1,11 @@
 package org.issi.pages;
 
-import com.microsoft.schemas.office.office.STInsetMode;
-import org.issi.driver.Driver;
-import org.issi.driver.DriverManager;
 import org.issi.enums.WaitStrategy;
-import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.interactions.Actions;
 
-public class PersonalInfoPage extends BasePage {
+public final class PersonalInfoPage extends BasePage {
 
-    public PersonalInfoPage() {
+    protected PersonalInfoPage() {
     }
 
 
@@ -21,6 +14,7 @@ public class PersonalInfoPage extends BasePage {
 
     public static void clickOnApplicationsMenu() {
         clickOn(applicationsMenu, WaitStrategy.CLICKABLE, "Applications Menu");
+        waitupto(500);
     }
 
     // Clicking on add 'Add new Applications link'
@@ -101,16 +95,16 @@ public class PersonalInfoPage extends BasePage {
     //Enter HICN/MBI No
     private static final By hicn_mbiText = By.xpath("//input[@id='txtPerHICN']");
 
-    public static void enterHicn_MbiNum(String hicn_mbiNum) {
-        enterText(hicn_mbiText, hicn_mbiNum, WaitStrategy.PRESENCE, "HICN/MBI NO");
+    public static void enterHicnMbiNum(String hicnmbiNum) {
+        enterText(hicn_mbiText, hicnmbiNum, WaitStrategy.PRESENCE, "HICN/MBI NO");
         waitupto(500);
     }
 
     //Selecting MartialStatus
     private static final By martialStatusDrpDwn = By.xpath("//select[@id='ddlPersonalMartialStatus']");
 
-    public static void selectApplicantMartialStatus(String MartialStatusValue) {
-        selectFromDrpDwn(martialStatusDrpDwn, WaitStrategy.CLICKABLE, MartialStatusValue, "Martial Status");
+    public static void selectApplicantMartialStatus(String martialStatusValue) {
+        selectFromDrpDwn(martialStatusDrpDwn, WaitStrategy.CLICKABLE, martialStatusValue, "Martial Status");
         waitupto(500);
     }
 
@@ -140,7 +134,7 @@ public class PersonalInfoPage extends BasePage {
         } else if (radiobtn.contentEquals("No")) {
             clickOn(areYoueLigibleForMedicaid_RadioBtn_No, WaitStrategy.CLICKABLE, radiobtn);
             waitupto(500);
-        } else if (radiobtn.contentEquals("No")) {
+        } else if (radiobtn.contentEquals("Don't Know")) {
             clickOn(areYoueLigibleForMedicaid_RadioBtn_DontKnow, WaitStrategy.CLICKABLE, radiobtn);
             waitupto(500);
         }
@@ -364,24 +358,24 @@ public class PersonalInfoPage extends BasePage {
     //Select Mailing State
     public static final By mailingStateDrpDwn = By.xpath("//select[@id='ddlMState']");
 
-    public static void selectMailingState(String MailingState) {
-        selectFromDrpDwn(mailingStateDrpDwn, WaitStrategy.CLICKABLE, MailingState, "State");
+    public static void selectMailingState(String mailingState) {
+        selectFromDrpDwn(mailingStateDrpDwn, WaitStrategy.CLICKABLE, mailingState, "State");
         waitupto(500);
     }
 
     //Select mailing county
     public static final By mailingCountryDrpDwn = By.xpath("//select[@id='ddlMCounty']");
 
-    public static void selectMailingCounty(String MailingCounty) {
-        selectFromDrpDwn(mailingCountryDrpDwn, WaitStrategy.CLICKABLE, MailingCounty, "County");
+    public static void selectMailingCounty(String mailingCounty) {
+        selectFromDrpDwn(mailingCountryDrpDwn, WaitStrategy.CLICKABLE, mailingCounty, "County");
         waitupto(500);
     }
 
     // Enter Mailing Zipcode
     public static final By mailingZipCodeText = By.xpath("//input[@id='txtMzipcode']");
 
-    public static void enterMailingZipcode(String Mailingzipcode) {
-        enterText(mailingZipCodeText, Mailingzipcode, WaitStrategy.PRESENCE, "Zip Code");
+    public static void enterMailingZipcode(String mailingzipcode) {
+        enterText(mailingZipCodeText, mailingzipcode, WaitStrategy.PRESENCE, "Zip Code");
         waitupto(500);
     }
 
@@ -455,8 +449,8 @@ public class PersonalInfoPage extends BasePage {
     // Enter Medicare ID
     private static final By medicareIDText = By.xpath("//input[@id='txtMedicaidNo']");
 
-    public static void enterMedicareID(String MedicareIDValue) {
-        enterText(medicareIDText, MedicareIDValue, WaitStrategy.PRESENCE, "MedicareID Value");
+    public static void enterMedicareID(String medicareIDValue) {
+        enterText(medicareIDText, medicareIDValue, WaitStrategy.PRESENCE, "MedicareID Value");
         waitupto(500);
     }
 

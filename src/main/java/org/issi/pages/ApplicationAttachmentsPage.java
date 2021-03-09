@@ -4,8 +4,8 @@ import org.issi.constants.FrameworkConstants;
 import org.issi.enums.WaitStrategy;
 import org.openqa.selenium.By;
 
-public class ApplicationAttachmentsPage extends BasePage{
-    public ApplicationAttachmentsPage() {
+public final class ApplicationAttachmentsPage extends BasePage{
+    private ApplicationAttachmentsPage() {
     }
     // clicking on Add new document link
     private static final By addNewDocumetnLink = By.xpath("//a[@id='0']");

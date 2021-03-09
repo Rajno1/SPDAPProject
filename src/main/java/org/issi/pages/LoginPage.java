@@ -4,9 +4,9 @@ import org.issi.driver.DriverManager;
 import org.issi.enums.WaitStrategy;
 import org.openqa.selenium.By;
 
-public class LoginPage extends BasePage {
+public final class LoginPage extends BasePage {
     //constructor
-    public LoginPage() {
+    private LoginPage() {
     }
 
 
@@ -17,19 +17,19 @@ public class LoginPage extends BasePage {
 
 
     //page actions
-    public String getLoginPageTitle(){
+    public static String getLoginPageTitle(){
         return getPage_Title();
     }
 
-    public void enterUserName(String usrnm){
+    public static void enterUserName(String usrnm){
         enterText(loginUsernameText,usrnm, WaitStrategy.PRESENCE,"Login username");
         waitupto(500);
     }
-    public void enterPassword(String pwd){
+    public static void enterPassword(String pwd){
        enterText(loginPasswordText,pwd,WaitStrategy.PRESENCE,"Login Password");
        waitupto(500);
     }
-    public void clickOnLogin(){
+    public static void clickOnLogin(){
         clickOn(loginBtn,WaitStrategy.CLICKABLE,"Login Button");
         waitupto(500);
         //DriverManager.getDriver().findElement(buttonLogin).click();
