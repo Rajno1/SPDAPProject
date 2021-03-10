@@ -1,16 +1,18 @@
 
-L
-java:S1481",Remove this unused "element" local variable.(’¢ÇÁşÿÿÿÿ8òÏã±/
-[
-java:S1854";Remove this useless assignment to local variable "element".(’¢ÇÁşÿÿÿÿ8È¦À¦ı.
-A
-java:S1172"&Remove these unused method parameters.(éæŸ8Ç˜¬¿€/
-X	java:S106"9Replace this use of System.out or System.err by a logger.(–µ…úÿÿÿÿ8È¦À¦ı.
-S	java:S106"9Replace this use of System.out or System.err by a logger.(ìØÅª8…èö±/
-m	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş«Çùÿÿÿÿ8È¦À¦ı.
-a
-java:S2142"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8È¦À¦ı.
-[
-java:S1854";Remove this useless assignment to local variable "element".(’¢ÇÁşÿÿÿÿ8òÏã±/
-[
-java:S1854";Remove this useless assignment to local variable "element".(’¢ÇÁşÿÿÿÿ8…èö±/
+]
+java:S1854m";Remove this useless assignment to local variable "element".(’¢ÇÁşÿÿÿÿ8…èö±/
+p	java:S100"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ş«Çùÿÿÿÿ8È¦À¦ı.
+]
+java:S1854H";Remove this useless assignment to local variable "element".(’¢ÇÁşÿÿÿÿ8È¦À¦ı.
+Z	java:S106_"9Replace this use of System.out or System.err by a logger.(–µ…úÿÿÿÿ8È¦À¦ı.
+]
+java:S1854o";Remove this useless assignment to local variable "element".(’¢ÇÁşÿÿÿÿ8òÏã±/
+C
+java:S1172'"&Remove these unused method parameters.(éæŸ8Ç˜¬¿€/
+c
+java:S2142|"FEither re-interrupt this method or rethrow the "InterruptedException".(ä ¹€8È¦À¦ı.
+O
+java:S1172,"2Remove this unused method parameter "elementName".(ãğ‡¥8™°Ëâ/
+U	java:S106s"9Replace this use of System.out or System.err by a logger.(ìØÅª8…èö±/
+N
+java:S1481m",Remove this unused "element" local variable.(’¢ÇÁşÿÿÿÿ8òÏã±/

@@ -35,14 +35,14 @@ public final class LoginPage extends BasePage {
     }
 
 
-    public static PersonalInfoPage doLogin(String un, String pwd){
+    public static PhoneLogPage doLogin(String un, String pwd){
         DriverManager.getDriver().findElement(loginUsernameText).sendKeys(un);
         log().info("Entered username as " + un +" ");
         DriverManager.getDriver().findElement(loginPasswordText).sendKeys(pwd);
         log().info("Entered password as " + pwd +" ");
         DriverManager.getDriver().findElement(loginBtn).click();
         log().info("clicked on login button");
-        return new PersonalInfoPage();
+        return new PhoneLogPage();
     }
 
 }

@@ -74,3 +74,5 @@ D
 log/application.html,d\d\dd1b3745faa6e539039b2535230f78adefd26b83
 C
 log/application.log,5\5\557bf5dd386a3868ae12430b3ea7363ae788f1ce
+^
+.src/main/java/org/issi/pages/PhoneLogPage.java,c\c\ccbf71dc63fc97b080c69377227def4bf36f9d35

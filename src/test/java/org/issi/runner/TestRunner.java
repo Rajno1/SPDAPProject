@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = {"src/test/resources/Appfeatures/TC005_SearchMedicarePlans.feature"},
         glue = {"org.issi.stepdefinitions","org.issi.hooks"},
         dryRun = true, // to check mapping make it 'true' (or) to execute your script makesure it is in 'false'
-       // tags = "@SearchByApplicantName",
+       // tags = "@SearchByApplicantNumber",
         //tags = "not @regression or @smoke or @sanity",
         plugin = {"pretty",
                 "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",

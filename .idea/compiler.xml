@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="MRPonMAC" />
+        <module name="SPDAP" />
         <module name="MRPonCucumber" />
         <module name="MDSPS" />
         <module name="PSMSonCucumber" />
