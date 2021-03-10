@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Maryland Resident Portal Test Execution Report</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Mar 9, 2021 04:47:11 PM</span></a>
+<a href="#"><span class="badge badge-primary">Mar 10, 2021 05:04:39 PM</span></a>
 </li>
 </ul>
 </div>
@@ -66,13 +66,13 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Mar 9, 2021 04:47:11 PM</h3>
+<h3>Mar 10, 2021 05:04:39 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Mar 9, 2021 04:49:16 PM</h3>
+<h3>Mar 10, 2021 05:04:53 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -143,7 +143,7 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='100%'><b>23</b> steps passed</small></div>
+<div><small data-tooltip='100%'><b>8</b> steps passed</small></div>
 <div>
 <small data-tooltip='0%'><b>0</b> steps failed,
 <b>0</b> skipped, <b data-tooltip='%'>0</b> others
@@ -162,7 +162,7 @@
 </div></div>
 <script>
 var timeline = {
-"ApplicationsList feature":123.997
+"ApplicationsList feature":13.736
 };
 </script>
 <div class="row">
@@ -172,7 +172,7 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>@NewApplication</td>
+<td>@SearchByApplicantName</td>
 <td>2</td>
 <td>0</td>
 <td>0</td>
@@ -221,7 +221,7 @@ warningChild: 0,
 skipChild: 0,
 infoChild: 0,
 grandChildCount: 5,
-passGrandChild: 23,
+passGrandChild: 8,
 failGrandChild: 0,
 warningGrandChild: 0,
 skipGrandChild: 0,
@@ -246,7 +246,7 @@ eventsCount: 5,
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">@NewApplication</a>
+<a class="dropdown-item" href="#">@SearchByApplicantName</a>
 </ul>
 </li>
 </ul>
@@ -259,7 +259,7 @@ eventsCount: 5,
           <div class="test-detail">
             <p class="name">ApplicationsList feature</p>
             <p class="text-sm">
-              <span>16:47:12 PM</span> / <span>00:02:03:997</span>
+              <span>17:04:39 PM</span> / <span>00:00:13:736</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -268,9 +268,9 @@ eventsCount: 5,
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-pass">ApplicationsList feature</h5>
-<span class='badge badge-success'>03.09.2021 16:47:12</span>
-<span class='badge badge-danger'>03.09.2021 16:49:16</span>
-<span class='badge badge-default'>00:02:03:997</span>
+<span class='badge badge-success'>03.10.2021 17:04:39</span>
+<span class='badge badge-danger'>03.10.2021 17:04:53</span>
+<span class='badge badge-default'>00:00:13:736</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 </div>
 <div class="m-t-10 m-l-5"></div>
@@ -280,14 +280,14 @@ eventsCount: 5,
   <div class="card">
     <div class="card-header" role="tab">
       <div class="card-title">
-        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Adding new application</div>
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Searching applicant using Applicant name</div>
       </div>
     </div>
         <div class="scenario_outline collapse">
             <div class="card-body l1">
               <div class="card-header">
                 <div class="card-title outline-child">
-                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Adding new application</div>
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Searching applicant using Applicant name</div>
                 </div>
               </div>
               <div class="card-body mt-3 collapse">
@@ -324,87 +324,12 @@ eventsCount: 5,
       </div>
                   </div>
                   <div class="step pass-bg">
-                    <span>When user clicks on Add New Application link</span>
+                    <span>When user enters applicant name "James"</span>
       <div>
       </div>
                   </div>
                   <div class="step pass-bg">
-                    <span>When user gets the title of the page</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>Then page title should be "Index - Maryland Residential Portal"</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>When user fills personal information from given sheet name "Personal_Information" and 0</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>And user clicks on Next button in Personal info field</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>When user fills application questions from given sheet name "Application_Questions" and 0</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>And user clicks on Next button in application questions field</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>When user fills Representative Information from given sheet name "Representative_Information" and 0</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>And user clicks on Next button in Representative Information field</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>When user fills Houserhold income Information from given sheet name "Household_income" and 0</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>And user clicks on Next button in Household income field</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>When user fills attachments Information from given sheet name "Attachments" and 0</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>And user clicks on Next button in attachment field</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>When user user accepts the declaration</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>And user enters captcha and login password</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>When user click on submit button to confim the application</span>
-      <div>
-      </div>
-                  </div>
-                  <div class="step pass-bg">
-                    <span>Then user gets the confirmation as "Dear Applicant,Your Application has been Registered for The Senior Prescription Drug Assistance Program."</span>
+                    <span>Then user sould found "James" in search field</span>
       <div>
       </div>
                   </div>
@@ -437,12 +362,12 @@ eventsCount: 5,
 <span class="meta">
 <span class='badge log pass-bg'>2</span>
 </span>
-<p class="name">@NewApplication</p>
+<p class="name">@SearchByApplicantName</p>
 <p class="duration text-sm">2 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>@NewApplication</h4>
+<h4>@SearchByApplicantName</h4>
 <span status="pass" class='badge log pass-bg'>2 passed</span>
 </div>
 <table class='table table-sm mt-4'>
@@ -456,21 +381,21 @@ eventsCount: 5,
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>16:47:12 PM</td>
+<td>17:04:39 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='2'>Adding new application</a>
+<a href="#" class="linked" test-id='1' id='2'>Searching applicant using Applicant name</a>
 <div class="">
-<span class="badge badge-default">ApplicationsList feature.Adding new application</span>
+<span class="badge badge-default">ApplicationsList feature.Searching applicant using Applicant name</span>
 </div>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>16:47:12 PM</td>
+<td>17:04:39 PM</td>
 <td>
-<a href="#" class="linked" test-id='1' id='3'>Adding new application</a>
+<a href="#" class="linked" test-id='1' id='3'>Searching applicant using Applicant name</a>
 <div class="">
-<span class="badge badge-default">ApplicationsList feature.Adding new application</span>
+<span class="badge badge-default">ApplicationsList feature.Searching applicant using Applicant name</span>
 </div>
 </td>
 </tr>

@@ -32,15 +32,16 @@ public final class LoginPage extends BasePage {
     public static void clickOnLogin(){
         clickOn(loginBtn,WaitStrategy.CLICKABLE,"Login Button");
         waitupto(500);
-        //DriverManager.getDriver().findElement(buttonLogin).click();
     }
 
 
     public static PersonalInfoPage doLogin(String un, String pwd){
-      //  System.out.println("Login with : " + un + "and" + pwd);
         DriverManager.getDriver().findElement(loginUsernameText).sendKeys(un);
+        log().info("Entered username as " + un +" ");
         DriverManager.getDriver().findElement(loginPasswordText).sendKeys(pwd);
+        log().info("Entered password as " + pwd +" ");
         DriverManager.getDriver().findElement(loginBtn).click();
+        log().info("clicked on login button");
         return new PersonalInfoPage();
     }
 

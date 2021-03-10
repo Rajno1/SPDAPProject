@@ -1,234 +1,149 @@
-2021-03-09 16:35:08,907 [main] INFO MRP -  Clicked on Applications Menu
-2021-03-09 16:35:11,012 [main] INFO MRP -  Clicked on Add New Application
-2021-03-09 16:35:13,238 [main] INFO MRP - selected  Prefix as Mr.
-2021-03-09 16:35:13,855 [main] INFO MRP - Entered  Last Name as Gates
-2021-03-09 16:35:14,456 [main] INFO MRP - Entered  First Name as Bill
-2021-03-09 16:35:15,059 [main] INFO MRP - Entered  Middle Name as Mick
-2021-03-09 16:35:15,951 [main] INFO MRP - selected  Suffix Value as Sr
-2021-03-09 16:35:16,766 [main] INFO MRP - selected  Gender Value as Male
-2021-03-09 16:35:17,411 [main] INFO MRP - Entered  Date pf Birth as 07/29/1990
-2021-03-09 16:35:18,042 [main] INFO MRP - Entered   Entered SSN number as 231465879
-2021-03-09 16:35:18,658 [main] INFO MRP - Entered  HICN/MBI NO as 231465879B
-2021-03-09 16:35:19,472 [main] INFO MRP - selected  Martial Status as Married
-2021-03-09 16:35:20,081 [main] INFO MRP -  Clicked on Yes
-2021-03-09 16:35:20,705 [main] INFO MRP -  Clicked on No
-2021-03-09 16:35:21,305 [main] INFO MRP -  Clicked on Don't Know
-2021-03-09 16:35:21,927 [main] INFO MRP -  Clicked on Yes
-2021-03-09 16:35:22,529 [main] INFO MRP - Entered  Spouse Prefix as Dr.
-2021-03-09 16:35:23,160 [main] INFO MRP - Entered  Spouse LastName as Melinda
-2021-03-09 16:35:23,790 [main] INFO MRP - Entered  Spouse FirstName as Gates
-2021-03-09 16:35:24,446 [main] INFO MRP - Entered  Spouse MiddleName as Mick
-2021-03-09 16:35:25,414 [main] INFO MRP - selected  Spouse Suffix as Ph.D
-2021-03-09 16:35:26,090 [main] INFO MRP - Entered  Spouse DateOfBirth as 05/25/1990
-2021-03-09 16:35:26,815 [main] INFO MRP - Entered  Spouse Email as rajasekhar.rct@gmail.com
-2021-03-09 16:35:27,474 [main] INFO MRP - Entered  Spouse HomePhone as (188) 888-8888
-2021-03-09 16:35:28,116 [main] INFO MRP - Entered  Spouse WorkPhone as (188) 888-8888
-2021-03-09 16:35:28,750 [main] INFO MRP - Entered  Spouse Cell Phone as (188) 888-8888
-2021-03-09 16:35:29,356 [main] INFO MRP - Entered  Address as NewYork
-2021-03-09 16:35:29,949 [main] INFO MRP - Entered  City as Brookview
-2021-03-09 16:35:30,771 [main] INFO MRP - selected  State as Maryland
-2021-03-09 16:35:31,790 [main] INFO MRP - selected  County as Dorchester County
-2021-03-09 16:35:32,396 [main] INFO MRP - Entered  Zip Code as 29437
-2021-03-09 16:35:32,988 [main] INFO MRP -  Clicked on State of Maryland retiree
-2021-03-09 16:35:33,626 [main] INFO MRP -  Clicked on Yes
-2021-03-09 16:35:36,220 [main] INFO MRP - Entered  Email id as rmaddigalla@issi-software.com
-2021-03-09 16:35:36,849 [main] INFO MRP - Entered  Home Phone number as (188) 888-8888
-2021-03-09 16:35:37,569 [main] INFO MRP - Entered  Work phone number as (188) 888-8888
-2021-03-09 16:35:38,187 [main] INFO MRP - Entered  Mobile phone number as (188) 888-8888
-2021-03-09 16:35:39,821 [main] INFO MRP -  Clicked on Medicare coverage is Yes
-2021-03-09 16:35:42,292 [main] INFO MRP -  Clicked on Next button in Personal info tab
-2021-03-09 16:35:45,141 [main] INFO MRP -  Clicked on 3
-2021-03-09 16:35:45,734 [main] INFO MRP -  Clicked on YES
-2021-03-09 16:35:46,316 [main] INFO MRP -  Clicked on NO
-2021-03-09 16:35:46,937 [main] INFO MRP -  Clicked on NO
-2021-03-09 16:35:47,533 [main] INFO MRP -  Clicked on Approved
-2021-03-09 16:35:48,197 [main] INFO MRP -  Clicked on NO
-2021-03-09 16:35:49,302 [main] INFO MRP -  Clicked on NO
-2021-03-09 16:35:49,943 [main] INFO MRP - Entered  Bank Investments as 1234$
-2021-03-09 16:35:51,150 [main] INFO MRP - Entered  Stock and other Investments as 1234$
-2021-03-09 16:35:51,993 [main] INFO MRP - Entered  cash information as 1234$
-2021-03-09 16:35:52,838 [main] INFO MRP -  Clicked on NO
-2021-03-09 16:35:53,415 [main] INFO MRP -  Clicked on NO
-2021-03-09 16:35:54,018 [main] INFO MRP -  Clicked on YES
-2021-03-09 16:35:54,618 [main] INFO MRP -  Clicked on YES
-2021-03-09 16:35:55,215 [main] INFO MRP - Entered  Monthly income from Social security as 1234$
-2021-03-09 16:35:56,063 [main] INFO MRP - Entered  Monthly income from RailRoad Retirement as 5421$
-2021-03-09 16:35:56,894 [main] INFO MRP - Entered  Monthly income from Veterna as 1234$
-2021-03-09 16:35:57,731 [main] INFO MRP - Entered  Monthly income from other pensions as 7689$
-2021-03-09 16:35:58,571 [main] INFO MRP - Entered  Monthly income from not listed as 1234$
-2021-03-09 16:35:59,417 [main] INFO MRP -  Clicked on NO
-2021-03-09 16:36:00,043 [main] INFO MRP -  Clicked on YES
-2021-03-09 16:36:00,639 [main] INFO MRP -  Clicked on YES
-2021-03-09 16:36:01,254 [main] INFO MRP - Entered  Spouse SSN as 123456789
-2021-03-09 16:36:02,211 [main] INFO MRP - Entered  Applicant Wages as 1234$
-2021-03-09 16:36:03,157 [main] INFO MRP - Entered  Spouse Wages as 1234$
-2021-03-09 16:36:04,010 [main] INFO MRP - Entered  Applicant net earning as 52500$
-2021-03-09 16:36:05,014 [main] INFO MRP - Entered  Spoouse net earning as 50000$
-2021-03-09 16:36:06,008 [main] INFO MRP -  Clicked on YES
-2021-03-09 16:36:06,607 [main] INFO MRP - Entered  Applicant Last working month and year as MM/YYYY
-2021-03-09 16:36:07,443 [main] INFO MRP - Entered  Spouse Last working month and year as MM/YYYY
-2021-03-09 16:36:08,276 [main] INFO MRP -  Clicked on NO
-2021-03-09 16:36:08,892 [main] INFO MRP -  Clicked on NO
-2021-03-09 16:36:10,025 [main] INFO MRP -  Clicked on Next Button in Application Questions
-2021-03-09 16:36:11,171 [main] INFO MRP -  Clicked on Adding Representative as Yes
-2021-03-09 16:36:11,761 [main] INFO MRP -  Clicked on Add New Representative
-2021-03-09 16:36:12,563 [main] INFO MRP - selected  Representative prefix as Mr.
-2021-03-09 16:36:13,182 [main] INFO MRP - Entered  Representative FirstName as Maddigalla
-2021-03-09 16:36:13,761 [main] INFO MRP - Entered  Representative MiddleName as Gates
-2021-03-09 16:36:14,365 [main] INFO MRP - Entered  Representative LastName as Rajasekhar
-2021-03-09 16:36:15,228 [main] INFO MRP - selected  Representative suffix as Jr
-2021-03-09 16:36:15,835 [main] INFO MRP - Entered  Representative SSN as 123456789
-2021-03-09 16:36:16,800 [main] INFO MRP - selected  Representative relation with appicant as Child
-2021-03-09 16:36:17,682 [main] INFO MRP - selected  Representative correspondence as SSI 11=MBD 3rd Party (partial dual)
-2021-03-09 16:36:18,280 [main] INFO MRP -  Clicked on Auth To Persons Other Than Myself
-2021-03-09 16:36:18,867 [main] INFO MRP -  Clicked on Auth To Report My Address
-2021-03-09 16:36:19,468 [main] INFO MRP -  Clicked on Auth To Discuss Paments And Premiums
-2021-03-09 16:36:20,074 [main] INFO MRP - Entered  Representative cell number as (188) 888-8888
-2021-03-09 16:36:20,692 [main] INFO MRP - Entered  Representative work number as (188) 888-8888
-2021-03-09 16:36:21,271 [main] INFO MRP - Entered  Representative Phone extension number as 12345
-2021-03-09 16:36:21,867 [main] INFO MRP - Entered  Representative Home phone number as (188) 888-8888
-2021-03-09 16:36:22,491 [main] INFO MRP - Entered  Representative fax number as (188) 888-8888
-2021-03-09 16:36:23,138 [main] INFO MRP - Entered  Representative Email id as rmaddigalla@issi-software.com
-2021-03-09 16:36:23,718 [main] INFO MRP - Entered  uploaded as C:/Users/Admin/Downloads/AuthorizedRep-Web.pdf
-2021-03-09 16:36:24,355 [main] INFO MRP -  Clicked on Representative submit button
-2021-03-09 16:36:27,036 [main] INFO MRP -  Clicked on Representative Next Button
-2021-03-09 16:36:28,143 [main] INFO MRP -  Clicked on Add New House Hold Income
-2021-03-09 16:36:29,659 [main] INFO MRP - selected  Income Type as Pension
-2021-03-09 16:36:30,277 [main] INFO MRP - Entered  Applicant Income as 25000$
-2021-03-09 16:36:30,879 [main] INFO MRP - Entered  Applicant Income as 20000$
-2021-03-09 16:36:32,043 [main] INFO MRP - Entered  Other memeber Income as 10000$
-2021-03-09 16:36:33,859 [main] INFO MRP -  Clicked on Yes
-2021-03-09 16:36:34,446 [main] INFO MRP - Entered  upload proof as C:/Users/Admin/Downloads/AuthorizedRep-Web.pdf
-2021-03-09 16:36:35,081 [main] INFO MRP -  Clicked on House hold Submit button
-2021-03-09 16:36:37,175 [main] INFO MRP -  Clicked on Next
-2021-03-09 16:36:38,349 [main] INFO MRP -  Clicked on Add new document
-2021-03-09 16:36:39,703 [main] INFO MRP - selected  document type as State identification card 
-2021-03-09 16:36:40,803 [main] INFO MRP - Entered  Document Name as Agreement
-2021-03-09 16:36:41,390 [main] INFO MRP - Entered  added attachment as C:/Users/Admin/Downloads/AuthorizedRep-Web.pdf
-2021-03-09 16:36:41,972 [main] INFO MRP -  Clicked on Yes
-2021-03-09 16:36:42,561 [main] INFO MRP -  Clicked on Yes
-2021-03-09 16:36:43,155 [main] INFO MRP - Entered  Description as This is id card
-2021-03-09 16:36:43,753 [main] INFO MRP -  Clicked on Save
-2021-03-09 16:36:45,595 [main] INFO MRP -  Clicked on Attachment Next Button
-2021-03-09 16:36:47,806 [main] INFO MRP -  Clicked on Declaration
-2021-03-09 16:36:50,485 [main] INFO MRP - Entered  Entered Captcha as gmhcvP
+2021-03-10 14:48:42,842 [main] INFO MRP -  Clicked on Applications Menu
+2021-03-10 14:48:45,018 [main] INFO MRP -  Clicked on Add New Application
+2021-03-10 14:48:46,848 [main] INFO MRP - selected  Prefix as Mr.
+2021-03-10 14:48:47,464 [main] INFO MRP - Entered  Last Name as Gates
+2021-03-10 14:48:48,044 [main] INFO MRP - Entered  First Name as Bill
+2021-03-10 14:48:48,632 [main] INFO MRP - Entered  Middle Name as Mick
+2021-03-10 14:48:49,494 [main] INFO MRP - selected  Suffix Value as Sr
+2021-03-10 14:48:50,308 [main] INFO MRP - selected  Gender Value as Male
+2021-03-10 14:48:50,911 [main] INFO MRP - Entered  Date pf Birth as 07/29/1990
+2021-03-10 14:48:51,538 [main] INFO MRP - Entered   Entered SSN number as 231465879
+2021-03-10 14:48:52,155 [main] INFO MRP - Entered  HICN/MBI NO as 231465879B
+2021-03-10 14:48:52,945 [main] INFO MRP - selected  Martial Status as Married
+2021-03-10 14:48:53,582 [main] INFO MRP -  Clicked on Yes
+2021-03-10 14:48:54,200 [main] INFO MRP -  Clicked on No
+2021-03-10 14:48:54,787 [main] INFO MRP -  Clicked on Don't Know
+2021-03-10 14:48:55,409 [main] INFO MRP -  Clicked on Yes
+2021-03-10 14:48:56,033 [main] INFO MRP - Entered  Spouse Prefix as Dr.
+2021-03-10 14:48:56,701 [main] INFO MRP - Entered  Spouse LastName as Melinda
+2021-03-10 14:48:57,351 [main] INFO MRP - Entered  Spouse FirstName as Gates
+2021-03-10 14:48:57,998 [main] INFO MRP - Entered  Spouse MiddleName as Mick
+2021-03-10 14:48:58,843 [main] INFO MRP - selected  Spouse Suffix as Ph.D
+2021-03-10 14:48:59,516 [main] INFO MRP - Entered  Spouse DateOfBirth as 05/25/1990
+2021-03-10 14:49:00,156 [main] INFO MRP - Entered  Spouse Email as rajasekhar.rct@gmail.com
+2021-03-10 14:49:00,805 [main] INFO MRP - Entered  Spouse HomePhone as (188) 888-8888
+2021-03-10 14:49:01,459 [main] INFO MRP - Entered  Spouse WorkPhone as (188) 888-8888
+2021-03-10 14:49:02,086 [main] INFO MRP - Entered  Spouse Cell Phone as (188) 888-8888
+2021-03-10 14:49:02,680 [main] INFO MRP - Entered  Address as NewYork
+2021-03-10 14:49:03,287 [main] INFO MRP - Entered  City as Brookview
+2021-03-10 14:49:04,054 [main] INFO MRP - selected  State as Maryland
+2021-03-10 14:49:05,074 [main] INFO MRP - selected  County as Dorchester County
+2021-03-10 14:49:05,689 [main] INFO MRP - Entered  Zip Code as 29437
+2021-03-10 14:49:06,294 [main] INFO MRP -  Clicked on State of Maryland retiree
+2021-03-10 14:49:06,914 [main] INFO MRP -  Clicked on Yes
+2021-03-10 14:49:09,487 [main] INFO MRP - Entered  Email id as rmaddigalla@issi-software.com
+2021-03-10 14:49:10,116 [main] INFO MRP - Entered  Home Phone number as (188) 888-8888
+2021-03-10 14:49:10,759 [main] INFO MRP - Entered  Work phone number as (188) 888-8888
+2021-03-10 14:49:11,385 [main] INFO MRP - Entered  Mobile phone number as (188) 888-8888
+2021-03-10 14:49:13,003 [main] INFO MRP -  Clicked on Medicare coverage is Yes
+2021-03-10 14:49:15,444 [main] INFO MRP -  Clicked on Next button in Personal info tab
+2021-03-10 14:49:18,073 [main] INFO MRP -  Clicked on 3
+2021-03-10 14:49:18,681 [main] INFO MRP -  Clicked on YES
+2021-03-10 14:49:19,290 [main] INFO MRP -  Clicked on NO
+2021-03-10 14:49:19,886 [main] INFO MRP -  Clicked on NO
+2021-03-10 14:49:20,487 [main] INFO MRP -  Clicked on Approved
+2021-03-10 14:49:21,079 [main] INFO MRP -  Clicked on NO
+2021-03-10 14:49:22,174 [main] INFO MRP -  Clicked on NO
+2021-03-10 14:49:22,772 [main] INFO MRP - Entered  Bank Investments as 1234$
+2021-03-10 14:49:23,609 [main] INFO MRP - Entered  Stock and other Investments as 1234$
+2021-03-10 14:49:24,479 [main] INFO MRP - Entered  cash information as 1234$
+2021-03-10 14:49:25,323 [main] INFO MRP -  Clicked on NO
+2021-03-10 14:49:25,912 [main] INFO MRP -  Clicked on NO
+2021-03-10 14:49:26,520 [main] INFO MRP -  Clicked on YES
+2021-03-10 14:49:27,124 [main] INFO MRP -  Clicked on YES
+2021-03-10 14:49:27,730 [main] INFO MRP - Entered  Monthly income from Social security as 1234$
+2021-03-10 14:49:28,570 [main] INFO MRP - Entered  Monthly income from RailRoad Retirement as 5421$
+2021-03-10 14:49:29,428 [main] INFO MRP - Entered  Monthly income from Veterna as 1234$
+2021-03-10 14:49:30,277 [main] INFO MRP - Entered  Monthly income from other pensions as 7689$
+2021-03-10 14:49:31,112 [main] INFO MRP - Entered  Monthly income from not listed as 1234$
+2021-03-10 14:49:31,957 [main] INFO MRP -  Clicked on NO
+2021-03-10 14:49:32,545 [main] INFO MRP -  Clicked on YES
+2021-03-10 14:49:33,157 [main] INFO MRP -  Clicked on YES
+2021-03-10 14:49:33,760 [main] INFO MRP - Entered  Spouse SSN as 123456789
+2021-03-10 14:49:34,618 [main] INFO MRP - Entered  Applicant Wages as 1234$
+2021-03-10 14:49:35,460 [main] INFO MRP - Entered  Spouse Wages as 1234$
+2021-03-10 14:49:36,317 [main] INFO MRP - Entered  Applicant net earning as 52500$
+2021-03-10 14:49:37,145 [main] INFO MRP - Entered  Spoouse net earning as 50000$
+2021-03-10 14:49:38,001 [main] INFO MRP -  Clicked on YES
+2021-03-10 14:49:38,633 [main] INFO MRP - Entered  Applicant Last working month and year as MM/YYYY
+2021-03-10 14:49:39,470 [main] INFO MRP - Entered  Spouse Last working month and year as MM/YYYY
+2021-03-10 14:49:40,339 [main] INFO MRP -  Clicked on NO
+2021-03-10 14:49:40,949 [main] INFO MRP -  Clicked on NO
+2021-03-10 14:49:42,141 [main] INFO MRP -  Clicked on Next Button in Application Questions
+2021-03-10 14:49:43,270 [main] INFO MRP -  Clicked on Adding Representative as Yes
+2021-03-10 14:49:43,879 [main] INFO MRP -  Clicked on Add New Representative
+2021-03-10 14:49:44,658 [main] INFO MRP - selected  Representative prefix as Mr.
+2021-03-10 14:49:45,260 [main] INFO MRP - Entered  Representative FirstName as Maddigalla
+2021-03-10 14:49:45,861 [main] INFO MRP - Entered  Representative MiddleName as Gates
+2021-03-10 14:49:46,450 [main] INFO MRP - Entered  Representative LastName as Rajasekhar
+2021-03-10 14:49:47,346 [main] INFO MRP - selected  Representative suffix as Jr
+2021-03-10 14:49:47,964 [main] INFO MRP - Entered  Representative SSN as 123456789
+2021-03-10 14:49:48,958 [main] INFO MRP - selected  Representative relation with appicant as Child
+2021-03-10 14:49:49,771 [main] INFO MRP - selected  Representative correspondence as SSI 11=MBD 3rd Party (partial dual)
+2021-03-10 14:49:50,403 [main] INFO MRP -  Clicked on Auth To Persons Other Than Myself
+2021-03-10 14:49:51,011 [main] INFO MRP -  Clicked on Auth To Report My Address
+2021-03-10 14:49:51,614 [main] INFO MRP -  Clicked on Auth To Discuss Paments And Premiums
+2021-03-10 14:49:52,212 [main] INFO MRP - Entered  Representative cell number as (188) 888-8888
+2021-03-10 14:49:52,809 [main] INFO MRP - Entered  Representative work number as (188) 888-8888
+2021-03-10 14:49:53,398 [main] INFO MRP - Entered  Representative Phone extension number as 12345
+2021-03-10 14:49:54,008 [main] INFO MRP - Entered  Representative Home phone number as (188) 888-8888
+2021-03-10 14:49:54,615 [main] INFO MRP - Entered  Representative fax number as (188) 888-8888
+2021-03-10 14:49:55,259 [main] INFO MRP - Entered  Representative Email id as rmaddigalla@issi-software.com
+2021-03-10 14:49:55,842 [main] INFO MRP - Entered  uploaded as C:/Users/Admin/Downloads/AuthorizedRep-Web.pdf
+2021-03-10 14:49:56,475 [main] INFO MRP -  Clicked on Representative submit button
+2021-03-10 14:49:59,505 [main] INFO MRP -  Clicked on Representative Next Button
+2021-03-10 14:50:00,611 [main] INFO MRP -  Clicked on Add New House Hold Income
+2021-03-10 14:50:02,063 [main] INFO MRP - selected  Income Type as Pension
+2021-03-10 14:50:02,671 [main] INFO MRP - Entered  Applicant Income as 25000$
+2021-03-10 14:50:03,279 [main] INFO MRP - Entered  Applicant Income as 20000$
+2021-03-10 14:50:04,402 [main] INFO MRP - Entered  Other memeber Income as 10000$
+2021-03-10 14:50:06,161 [main] INFO MRP -  Clicked on Yes
+2021-03-10 14:50:06,737 [main] INFO MRP - Entered  upload proof as C:/Users/Admin/Downloads/AuthorizedRep-Web.pdf
+2021-03-10 14:50:07,365 [main] INFO MRP -  Clicked on House hold Submit button
+2021-03-10 14:50:13,121 [main] INFO MRP -  Clicked on Next
+2021-03-10 14:50:14,291 [main] INFO MRP -  Clicked on Add new document
+2021-03-10 14:50:15,631 [main] INFO MRP - selected  document type as State identification card 
+2021-03-10 14:50:16,721 [main] INFO MRP - Entered  Document Name as Agreement
+2021-03-10 14:50:17,308 [main] INFO MRP - Entered  added attachment as C:/Users/Admin/Downloads/AuthorizedRep-Web.pdf
+2021-03-10 14:50:17,892 [main] INFO MRP -  Clicked on Yes
+2021-03-10 14:50:18,482 [main] INFO MRP -  Clicked on Yes
+2021-03-10 14:50:19,089 [main] INFO MRP - Entered  Description as This is id card
+2021-03-10 14:50:19,689 [main] INFO MRP -  Clicked on Save
+2021-03-10 14:50:21,627 [main] INFO MRP -  Clicked on Attachment Next Button
+2021-03-10 14:50:23,795 [main] INFO MRP -  Clicked on Declaration
+2021-03-10 14:50:26,283 [main] INFO MRP - captcha is : ngrAMr
 
-2021-03-09 16:36:51,618 [main] INFO MRP - Entered  Entered applicant password  as Issi123#
-2021-03-09 16:37:00,484 [main] INFO MRP -  Clicked on Final sumbit
-2021-03-09 16:47:25,648 [main] INFO MRP -  Clicked on Applications Menu
-2021-03-09 16:47:27,706 [main] INFO MRP -  Clicked on Add New Application
-2021-03-09 16:47:29,717 [main] INFO MRP - selected  Prefix as Mr.
-2021-03-09 16:47:30,331 [main] INFO MRP - Entered  Last Name as Gates
-2021-03-09 16:47:30,917 [main] INFO MRP - Entered  First Name as Bill
-2021-03-09 16:47:31,510 [main] INFO MRP - Entered  Middle Name as Mick
-2021-03-09 16:47:32,411 [main] INFO MRP - selected  Suffix Value as Sr
-2021-03-09 16:47:33,206 [main] INFO MRP - selected  Gender Value as Male
-2021-03-09 16:47:33,822 [main] INFO MRP - Entered  Date pf Birth as 07/29/1990
-2021-03-09 16:47:34,424 [main] INFO MRP - Entered   Entered SSN number as 231465879
-2021-03-09 16:47:35,026 [main] INFO MRP - Entered  HICN/MBI NO as 231465879B
-2021-03-09 16:47:35,838 [main] INFO MRP - selected  Martial Status as Married
-2021-03-09 16:47:36,425 [main] INFO MRP -  Clicked on Yes
-2021-03-09 16:47:37,038 [main] INFO MRP -  Clicked on No
-2021-03-09 16:47:37,642 [main] INFO MRP -  Clicked on Don't Know
-2021-03-09 16:47:38,254 [main] INFO MRP -  Clicked on Yes
-2021-03-09 16:47:38,865 [main] INFO MRP - Entered  Spouse Prefix as Dr.
-2021-03-09 16:47:39,519 [main] INFO MRP - Entered  Spouse LastName as Melinda
-2021-03-09 16:47:40,126 [main] INFO MRP - Entered  Spouse FirstName as Gates
-2021-03-09 16:47:40,750 [main] INFO MRP - Entered  Spouse MiddleName as Mick
-2021-03-09 16:47:41,581 [main] INFO MRP - selected  Spouse Suffix as Ph.D
-2021-03-09 16:47:42,212 [main] INFO MRP - Entered  Spouse DateOfBirth as 05/25/1990
-2021-03-09 16:47:42,870 [main] INFO MRP - Entered  Spouse Email as rajasekhar.rct@gmail.com
-2021-03-09 16:47:43,492 [main] INFO MRP - Entered  Spouse HomePhone as (188) 888-8888
-2021-03-09 16:47:44,135 [main] INFO MRP - Entered  Spouse WorkPhone as (188) 888-8888
-2021-03-09 16:47:44,748 [main] INFO MRP - Entered  Spouse Cell Phone as (188) 888-8888
-2021-03-09 16:47:45,347 [main] INFO MRP - Entered  Address as NewYork
-2021-03-09 16:47:45,949 [main] INFO MRP - Entered  City as Brookview
-2021-03-09 16:47:46,741 [main] INFO MRP - selected  State as Maryland
-2021-03-09 16:47:47,825 [main] INFO MRP - selected  County as Dorchester County
-2021-03-09 16:47:48,427 [main] INFO MRP - Entered  Zip Code as 29437
-2021-03-09 16:47:49,041 [main] INFO MRP -  Clicked on State of Maryland retiree
-2021-03-09 16:47:49,641 [main] INFO MRP -  Clicked on Yes
-2021-03-09 16:47:52,238 [main] INFO MRP - Entered  Email id as rmaddigalla@issi-software.com
-2021-03-09 16:47:52,888 [main] INFO MRP - Entered  Home Phone number as (188) 888-8888
-2021-03-09 16:47:53,495 [main] INFO MRP - Entered  Work phone number as (188) 888-8888
-2021-03-09 16:47:54,122 [main] INFO MRP - Entered  Mobile phone number as (188) 888-8888
-2021-03-09 16:47:55,742 [main] INFO MRP -  Clicked on Medicare coverage is Yes
-2021-03-09 16:47:57,878 [main] INFO MRP -  Clicked on Next button in Personal info tab
-2021-03-09 16:48:00,713 [main] INFO MRP -  Clicked on 3
-2021-03-09 16:48:01,290 [main] INFO MRP -  Clicked on YES
-2021-03-09 16:48:01,876 [main] INFO MRP -  Clicked on NO
-2021-03-09 16:48:02,490 [main] INFO MRP -  Clicked on NO
-2021-03-09 16:48:03,096 [main] INFO MRP -  Clicked on Approved
-2021-03-09 16:48:03,703 [main] INFO MRP -  Clicked on NO
-2021-03-09 16:48:04,807 [main] INFO MRP -  Clicked on NO
-2021-03-09 16:48:05,433 [main] INFO MRP - Entered  Bank Investments as 1234$
-2021-03-09 16:48:06,358 [main] INFO MRP - Entered  Stock and other Investments as 1234$
-2021-03-09 16:48:07,181 [main] INFO MRP - Entered  cash information as 1234$
-2021-03-09 16:48:08,020 [main] INFO MRP -  Clicked on NO
-2021-03-09 16:48:08,701 [main] INFO MRP -  Clicked on NO
-2021-03-09 16:48:09,288 [main] INFO MRP -  Clicked on YES
-2021-03-09 16:48:09,893 [main] INFO MRP -  Clicked on YES
-2021-03-09 16:48:10,484 [main] INFO MRP - Entered  Monthly income from Social security as 1234$
-2021-03-09 16:48:11,330 [main] INFO MRP - Entered  Monthly income from RailRoad Retirement as 5421$
-2021-03-09 16:48:12,159 [main] INFO MRP - Entered  Monthly income from Veterna as 1234$
-2021-03-09 16:48:12,989 [main] INFO MRP - Entered  Monthly income from other pensions as 7689$
-2021-03-09 16:48:13,814 [main] INFO MRP - Entered  Monthly income from not listed as 1234$
-2021-03-09 16:48:14,668 [main] INFO MRP -  Clicked on NO
-2021-03-09 16:48:15,269 [main] INFO MRP -  Clicked on YES
-2021-03-09 16:48:15,871 [main] INFO MRP -  Clicked on YES
-2021-03-09 16:48:16,485 [main] INFO MRP - Entered  Spouse SSN as 123456789
-2021-03-09 16:48:17,314 [main] INFO MRP - Entered  Applicant Wages as 1234$
-2021-03-09 16:48:18,155 [main] INFO MRP - Entered  Spouse Wages as 1234$
-2021-03-09 16:48:18,995 [main] INFO MRP - Entered  Applicant net earning as 52500$
-2021-03-09 16:48:19,852 [main] INFO MRP - Entered  Spoouse net earning as 50000$
-2021-03-09 16:48:20,676 [main] INFO MRP -  Clicked on YES
-2021-03-09 16:48:21,278 [main] INFO MRP - Entered  Applicant Last working month and year as MM/YYYY
-2021-03-09 16:48:22,101 [main] INFO MRP - Entered  Spouse Last working month and year as MM/YYYY
-2021-03-09 16:48:23,111 [main] INFO MRP -  Clicked on NO
-2021-03-09 16:48:23,701 [main] INFO MRP -  Clicked on NO
-2021-03-09 16:48:25,198 [main] INFO MRP -  Clicked on Next Button in Application Questions
-2021-03-09 16:48:26,344 [main] INFO MRP -  Clicked on Adding Representative as Yes
-2021-03-09 16:48:26,986 [main] INFO MRP -  Clicked on Add New Representative
-2021-03-09 16:48:27,773 [main] INFO MRP - selected  Representative prefix as Mr.
-2021-03-09 16:48:28,375 [main] INFO MRP - Entered  Representative FirstName as Maddigalla
-2021-03-09 16:48:28,967 [main] INFO MRP - Entered  Representative MiddleName as Gates
-2021-03-09 16:48:29,570 [main] INFO MRP - Entered  Representative LastName as Rajasekhar
-2021-03-09 16:48:30,438 [main] INFO MRP - selected  Representative suffix as Jr
-2021-03-09 16:48:31,058 [main] INFO MRP - Entered  Representative SSN as 123456789
-2021-03-09 16:48:31,990 [main] INFO MRP - selected  Representative relation with appicant as Child
-2021-03-09 16:48:32,818 [main] INFO MRP - selected  Representative correspondence as SSI 11=MBD 3rd Party (partial dual)
-2021-03-09 16:48:33,434 [main] INFO MRP -  Clicked on Auth To Persons Other Than Myself
-2021-03-09 16:48:34,026 [main] INFO MRP -  Clicked on Auth To Report My Address
-2021-03-09 16:48:34,606 [main] INFO MRP -  Clicked on Auth To Discuss Paments And Premiums
-2021-03-09 16:48:35,213 [main] INFO MRP - Entered  Representative cell number as (188) 888-8888
-2021-03-09 16:48:35,808 [main] INFO MRP - Entered  Representative work number as (188) 888-8888
-2021-03-09 16:48:36,401 [main] INFO MRP - Entered  Representative Phone extension number as 12345
-2021-03-09 16:48:36,990 [main] INFO MRP - Entered  Representative Home phone number as (188) 888-8888
-2021-03-09 16:48:37,608 [main] INFO MRP - Entered  Representative fax number as (188) 888-8888
-2021-03-09 16:48:38,225 [main] INFO MRP - Entered  Representative Email id as rmaddigalla@issi-software.com
-2021-03-09 16:48:38,834 [main] INFO MRP - Entered  uploaded as C:/Users/Admin/Downloads/AuthorizedRep-Web.pdf
-2021-03-09 16:48:39,429 [main] INFO MRP -  Clicked on Representative submit button
-2021-03-09 16:48:41,552 [main] INFO MRP -  Clicked on Representative Next Button
-2021-03-09 16:48:42,647 [main] INFO MRP -  Clicked on Add New House Hold Income
-2021-03-09 16:48:44,229 [main] INFO MRP - selected  Income Type as Pension
-2021-03-09 16:48:44,856 [main] INFO MRP - Entered  Applicant Income as 25000$
-2021-03-09 16:48:45,462 [main] INFO MRP - Entered  Applicant Income as 20000$
-2021-03-09 16:48:46,573 [main] INFO MRP - Entered  Other memeber Income as 10000$
-2021-03-09 16:48:48,326 [main] INFO MRP -  Clicked on Yes
-2021-03-09 16:48:48,908 [main] INFO MRP - Entered  upload proof as C:/Users/Admin/Downloads/AuthorizedRep-Web.pdf
-2021-03-09 16:48:49,514 [main] INFO MRP -  Clicked on House hold Submit button
-2021-03-09 16:48:51,103 [main] INFO MRP -  Clicked on Next
-2021-03-09 16:48:52,272 [main] INFO MRP -  Clicked on Add new document
-2021-03-09 16:48:53,638 [main] INFO MRP - selected  document type as State identification card 
-2021-03-09 16:48:54,746 [main] INFO MRP - Entered  Document Name as Agreement
-2021-03-09 16:48:55,346 [main] INFO MRP - Entered  added attachment as C:/Users/Admin/Downloads/AuthorizedRep-Web.pdf
-2021-03-09 16:48:55,956 [main] INFO MRP -  Clicked on Yes
-2021-03-09 16:48:56,545 [main] INFO MRP -  Clicked on Yes
-2021-03-09 16:48:57,144 [main] INFO MRP - Entered  Description as This is id card
-2021-03-09 16:48:57,758 [main] INFO MRP -  Clicked on Save
-2021-03-09 16:48:59,256 [main] INFO MRP -  Clicked on Attachment Next Button
-2021-03-09 16:49:01,425 [main] INFO MRP -  Clicked on Declaration
-2021-03-09 16:49:04,141 [main] INFO MRP - Entered  Entered Captcha as RzDP7A
+2021-03-10 14:50:26,404 [main] INFO MRP - Entered  Entered Captcha as ngrAMr
 
-2021-03-09 16:49:05,264 [main] INFO MRP - Entered  Entered applicant password  as Issi123#
-2021-03-09 16:49:12,787 [main] INFO MRP -  Clicked on Final sumbit
+2021-03-10 14:50:27,536 [main] INFO MRP - Entered  Entered applicant password  as Issi123#
+2021-03-10 14:50:35,502 [main] INFO MRP -  Clicked on Final sumbit
+2021-03-10 16:22:51,537 [main] INFO MRP -  Clicked on Applications Menu
+2021-03-10 16:22:53,194 [main] INFO MRP - Entered  Applicant number as 78 as 78
+2021-03-10 16:25:36,995 [main] INFO MRP -  Clicked on Applications Menu
+2021-03-10 16:25:38,612 [main] INFO MRP - Entered  Applicant number as as 78
+2021-03-10 16:28:08,686 [main] INFO MRP -  Clicked on Applications Menu
+2021-03-10 16:28:10,310 [main] INFO MRP - Entered  Applicant number as 78
+2021-03-10 16:30:54,570 [main] INFO MRP -  Clicked on Applications Menu
+2021-03-10 16:30:56,192 [main] INFO MRP - Entered  Applicant number as 78
+2021-03-10 16:30:56,798 [main] INFO MRP - 78 found in search field
+2021-03-10 16:53:27,088 [main] INFO MRP -  Clicked on Applications Menu
+2021-03-10 16:53:28,770 [main] INFO MRP - Entered  Applicant name as as gates
+2021-03-10 16:53:29,502 [main] INFO MRP - Applicant name gates found in search filed
+2021-03-10 16:54:00,384 [main] INFO MRP -  Clicked on Applications Menu
+2021-03-10 16:54:02,026 [main] INFO MRP - Entered  Applicant name as as James
+2021-03-10 16:54:02,600 [main] INFO MRP - Applicant name James found in search filed
+2021-03-10 17:02:08,081 [main] INFO MRP - chrome was started successfully
+2021-03-10 17:02:08,550 [main] INFO MRP - Entered username as Applicant 
+2021-03-10 17:02:08,624 [main] INFO MRP - Entered password as Issi123# 
+2021-03-10 17:02:12,770 [main] INFO MRP - clicked on login button
+2021-03-10 17:02:13,794 [main] INFO MRP -  Clicked on Applications Menu
+2021-03-10 17:02:16,005 [main] INFO MRP - Applicant name James found in search filed
+2021-03-10 17:02:16,609 [main] INFO MRP - chrome was closed successfully
+2021-03-10 17:04:44,948 [main] INFO MRP - chrome was started successfully
+2021-03-10 17:04:45,426 [main] INFO MRP - Entered username as Applicant 
+2021-03-10 17:04:45,497 [main] INFO MRP - Entered password as Issi123# 
+2021-03-10 17:04:49,654 [main] INFO MRP - clicked on login button
+2021-03-10 17:04:50,685 [main] INFO MRP -  Clicked on Applications Menu
+2021-03-10 17:04:52,300 [main] INFO MRP - Entered applicant name as James in search field
+2021-03-10 17:04:52,880 [main] INFO MRP - Applicant name James found in search filed
+2021-03-10 17:04:53,508 [main] INFO MRP - chrome was closed successfully

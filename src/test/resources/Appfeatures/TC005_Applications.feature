@@ -35,12 +35,19 @@ Feature: ApplicationsList feature
       | 0         |
 
   @SearchByApplicantNumber
-  Scenario: Searching applicant using Application number
-    When user enters applicant number
-    Then user sould found Application number in search field
+  Scenario Outline: Searching applicant using Application number
+    When user enters applicant number <ApplicantNumber>
+    Then user should found <ApplicantNumber> in search field
+    Examples:
+      | ApplicantNumber |
+      | 78              |
 
   @SearchByApplicantName
-  Scenario: Searching applicant using Applicant name
-    When user enters applicant name
-    Then user sould found Application name in search field
+  Scenario Outline: Searching applicant using Applicant name
+    When user enters applicant name "<ApplicantName>"
+    Then user sould found "<ApplicantName>" in search field
+    Examples:
+      | ApplicantName |
+      | James         |
+
 

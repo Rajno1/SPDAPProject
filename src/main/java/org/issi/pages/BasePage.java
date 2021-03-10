@@ -44,7 +44,6 @@ public class BasePage {
     public static void enterText(By by, String value,WaitStrategy waitstrategy, String elementName) {
         WebElement element =ExplicitWaitFactory.performExplicitWait(by, waitstrategy);
         element.sendKeys(value);
-       log().info("Entered  "+elementName+" as "+value);
     }
 
     public static void selectFromDrpDwn(By by,WaitStrategy waitStrategy,String value,String elementName){
