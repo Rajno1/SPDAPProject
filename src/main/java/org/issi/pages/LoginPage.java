@@ -11,9 +11,9 @@ public final class LoginPage extends BasePage {
 
 
     //By locators
-    private static final By loginUsernameText = By.id("userName");
-    private static final By loginPasswordText = By.id("password");
-    private static final By loginBtn = By.id("submit");
+    private static final By loginUsernameText = By.xpath("//input[@id='userName']");
+    private static final By loginPasswordText = By.xpath("//input[@id='password']");
+    private static final By loginBtn = By.xpath("//button[@id='submit']");
 
 
     //page actions

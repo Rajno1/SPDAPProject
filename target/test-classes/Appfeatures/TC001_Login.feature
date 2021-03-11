@@ -11,8 +11,8 @@ Feature: Login page feature
     And user enters password "<password>"
     When user clicks on login button
     And user gets the title of the page
-    Then page title should be "- Maryland Residential Portal"
+    Then page title should be "About"
     Examples:
       | username  | password |
-      | Applicant | Issi123# |
+      | Admin | Issi123# |
 
